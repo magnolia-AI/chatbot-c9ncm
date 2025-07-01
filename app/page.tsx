@@ -23,6 +23,12 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+          <div className="mt-8 flex justify-center">
+            <Button asChild>
+              <a href="/chat">Go to Chat</a>
+            </Button>
+          </div>
     </div>
   )
 }
